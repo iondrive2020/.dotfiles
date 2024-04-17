@@ -126,4 +126,4 @@ export PICO_SDK_PATH=~/pico/pico-sdk
 
 export WAYLAND_DISPLAY=wayland-0
 export PULSE_SERVER=/mnt/wslg/PulseServer
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME --set-upstream origin master'
